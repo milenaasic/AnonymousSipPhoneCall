@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AnonymousSipPhoneCall</string>
+
+    <!-- naslovi u nav drawer -->
+    <string name="nav_drawer_account">Account Balance</string>
+    <string name="nav_drawer_make_phone_call">Make Phone Call</string>
+    <string name="nav_drawer_prices_and_rates">Rates</string>
+    <string name="nav_drawer_terms_of_use">Terms of Use</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
