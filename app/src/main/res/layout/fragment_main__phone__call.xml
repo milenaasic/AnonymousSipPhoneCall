@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sipbtc.anonymoussipphonecall.Main_Make_Phone_Call_Fragment">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/makePhoneCallTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        app:tabTextColor="@android:color/white">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/dialPad_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_dialpad_white_48dp" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/contacts_Tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_contacts_white_48dp" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/dialingHistoryTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_history_white_48dp" />
+    </android.support.design.widget.TabLayout>
+
+    <FrameLayout
+        android:id="@+id/main_phone_call_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+</LinearLayout>

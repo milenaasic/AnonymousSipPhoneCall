@@ -17,11 +17,6 @@
             android:icon="@drawable/ic_description_black_48dp"
             android:title="@string/nav_drawer_prices_and_rates" />
 
-        <item
-            android:id="@+id/terms_of_use"
-            android:icon="@drawable/ic_description_black_48dp"
-            android:title="@string/nav_drawer_terms_of_use" />
-
 
     </group>
 

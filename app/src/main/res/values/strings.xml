@@ -13,5 +13,16 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!-- permissions messages -->
+    <string name="permission_rationale_internet">Need Internet Permission</string>
+    <string name="permission_rationale_internet_or_network_state">Need permission to check if your device is online and to use Interet</string>
+
+
+    <!-- log in fragment strings -->
+    <string name="dear_user_text_1">Dear User,</string>
+    <string name="dear_user_text_2">Your account balance is</string>
+    <string name="btc_balance">0.00 BTC</string>
+    <string name="add_credit">ADD CREDIT</string>
+    <string name="textView_Info_add_credit">Would you like to add credit to make a phone call?</string>
 
 </resources>
