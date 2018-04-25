@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/itemLinearLayout"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+    >
+
+<FrameLayout
+    android:id="@+id/hideandshow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/line_decorator_top_and_bottom_margin"
+        android:layout_marginStart="@dimen/list_item_text_left_padding"
+
+        android:layout_marginTop="@dimen/line_decorator_top_and_bottom_margin"
+        android:background="@color/divider">
+
+    </FrameLayout>
+
+</FrameLayout>
+
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/touchLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize">
+
+    <TextView
+        android:id="@+id/firstLetterView"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+
+        android:layout_height="0dp"
+
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingLeft="@dimen/list_item_icon_left_padding"
+        android:paddingStart="@dimen/list_item_icon_left_padding"
+        android:text="A"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/list_capital_letter_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/itemTextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/list_item_text_left_padding"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:paddingEnd="@dimen/list_item_right_padding"
+        android:paddingLeft="@dimen/list_item_right_padding"
+        android:paddingRight="@dimen/list_item_right_padding"
+        android:paddingStart="@dimen/list_item_right_padding"
+        android:text="mali tekst"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="@dimen/list_text_primary_size"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/itemImageView"
+        app:layout_constraintStart_toStartOf="@+id/firstLetterView"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="@dimen/list_item_text_left_padding" />
+
+    <ImageView
+        android:id="@+id/itemImageView"
+        android:layout_width="@dimen/avatar_item_heigh_and_width"
+        android:layout_height="@dimen/avatar_item_heigh_and_width"
+
+        android:layout_marginEnd="@dimen/list_item_icon_left_padding"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:padding="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:cropToPadding="false" />
+
+    <TextView
+        android:id="@+id/letterInCircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="A"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/letter_in_circle_size"
+        app:layout_constraintBottom_toBottomOf="@+id/itemImageView"
+        app:layout_constraintEnd_toEndOf="@+id/itemImageView"
+        app:layout_constraintStart_toStartOf="@+id/itemImageView"
+        app:layout_constraintTop_toTopOf="@+id/itemImageView" />
+
+</android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>

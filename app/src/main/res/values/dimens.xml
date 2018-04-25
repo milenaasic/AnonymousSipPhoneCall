@@ -7,8 +7,25 @@
     <dimen name="fab_margin">16dp</dimen>
 
     //dial keypad
-    <dimen name="keypad_number">20sp</dimen>
+    <dimen name="keypad_number">22sp</dimen>
     <dimen name="keypad_text">24sp</dimen>
     <dimen name="dialpadNumber_height">48dp</dimen>
+    <dimen name="vertical_margin_32dp" />
+    <dimen name="vertical_margin_32">32dp</dimen>
 
+    //list dimenzije
+    <dimen name="list_top_and_bottom_padding">16dp</dimen>
+
+    <dimen name="list_item_icon_left_padding">16dp</dimen>
+    <dimen name="list_item_text_left_padding">72dp</dimen>
+    <dimen name="list_item_right_padding">16dp</dimen>
+    <dimen name="list_item_heigh">56dp</dimen>
+    <dimen name="line_decorator_top_and_bottom_margin">24dp</dimen>
+
+    //avatar icon and list Item dimensions
+    <dimen name="avatar_item_heigh_and_width">48dp</dimen>
+    <dimen name="avatar_padding">2dp</dimen>
+    <dimen name="list_capital_letter_size">36sp</dimen>
+    <dimen name="list_text_primary_size">18sp</dimen>
+    <dimen name="letter_in_circle_size">20sp</dimen>
 </resources>
