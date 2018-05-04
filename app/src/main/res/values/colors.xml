@@ -9,5 +9,9 @@
     <color name="dial_numbers">#7b000000</color>
     <color name="customColor">#5a3535</color>
 
+    <color name="greyForSmallText50">#7b000000</color>
+    <color name="colorDarkGreyTransparent20">#33212121</color>
+
+    <color name="white_primary_text_color">#ffffff</color>
 
 </resources>

@@ -7,7 +7,8 @@
         <item
             android:id="@+id/account"
             android:icon="@drawable/ic_account_balance_black_48dp"
-            android:title="@string/nav_drawer_account" />
+            android:title="@string/nav_drawer_account"
+            android:checked="true"/>
         <item
             android:id="@+id/make_phone_call"
             android:icon="@drawable/ic_dialer_sip_black_48dp"

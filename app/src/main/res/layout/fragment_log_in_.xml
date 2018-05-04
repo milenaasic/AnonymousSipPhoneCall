@@ -57,9 +57,9 @@
         <Button
             android:id="@+id/buttonAddCredit"
             style="@style/Widget.AppCompat.Button"
-            android:layout_width="0dp"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="64dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:background="?attr/colorPrimaryDark"
@@ -71,24 +71,26 @@
             android:textColor="@android:color/white"
             android:textSize="18sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/textViewAddCreditInfo"
-            app:layout_constraintEnd_toEndOf="@+id/textViiewAccountBalance"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/textViiewAccountBalance" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/textViewAddCreditInfo"
-            android:layout_width="0dp"
+            android:layout_width="288dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="64dp"
+            android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
             android:text="@string/textView_Info_add_credit"
             android:textAlignment="center"
             android:textColor="@color/colorAccent"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/buttonAddCredit"
             app:layout_constraintEnd_toEndOf="@+id/buttonAddCredit"
-            app:layout_constraintStart_toStartOf="@+id/buttonAddCredit" />
+            app:layout_constraintStart_toStartOf="@+id/buttonAddCredit"
+            app:layout_constraintTop_toBottomOf="@+id/textViiewAccountBalance"
+            app:layout_constraintVertical_bias="1.0" />
 
     </android.support.constraint.ConstraintLayout>
 
