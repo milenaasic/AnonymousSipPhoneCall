@@ -37,5 +37,7 @@
     <string name="nb_of_filtered_items">0 found</string>
     <string name="searchHint">search contacts</string>
     <string name="name">name</string>
+    <string name="permission_rationale_use_sip">Need permission to make SIP phone call</string>
+    <string name="no_network_info">No Network Connection</string>
 
 </resources>

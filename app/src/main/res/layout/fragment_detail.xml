@@ -1,90 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:orientation="vertical"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainDetailFragmentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/myConstraintLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".DetailFragment">
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:foregroundGravity="bottom">
 
-        <android.support.constraint.ConstraintLayout
-            android:id="@+id/myConstraintLayout"
-            android:layout_width="match_parent"
+
+        <ImageView
+            android:id="@+id/fullPictureImage"
+            android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="2"
-            android:foregroundGravity="bottom">
+            android:foregroundGravity=""
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="@+id/mytextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@color/colorPrimary"
+            tools:foregroundGravity="bottom"
+            tools:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/mytextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="0dp"
+            android:gravity="center_vertical"
+            android:minHeight="?attr/actionBarSize"
+            android:paddingBottom="8dp"
+            android:paddingEnd="32dp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:paddingStart="32dp"
+            android:text="@string/name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/white_primary_text_color"
+            android:textColorHighlight="@color/colorAccent"
+            android:textSize="24sp"
+            android:typeface="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.166"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/displayNameTop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingEnd="32dp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:paddingStart="32dp"
+            android:paddingTop="16dp"
+            android:text="@string/name"
+            android:textColor="@color/white_primary_text_color"
+            android:textColorHighlight="@color/colorAccent"
+            android:textSize="24sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/fullPictureImage"
+            app:layout_constraintStart_toStartOf="@+id/fullPictureImage"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
-            <ImageView
-                android:id="@+id/fullPictureImage"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:foregroundGravity=""
-                android:scaleType="centerCrop"
-                app:layout_constraintBottom_toBottomOf="@+id/mytextView"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@color/colorPrimary"
-                tools:foregroundGravity="bottom"
-                tools:scaleType="centerCrop" />
+    </android.support.constraint.ConstraintLayout>
 
-            <TextView
-                android:id="@+id/mytextView"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-
-                android:layout_margin="0dp"
-                android:gravity="center_vertical"
-                android:minHeight="?attr/actionBarSize"
-                android:paddingBottom="8dp"
-                android:paddingEnd="32dp"
-                android:paddingLeft="32dp"
-                android:paddingRight="32dp"
-                android:paddingStart="32dp"
-                android:text="@string/name"
-                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-                android:textColor="@color/white_primary_text_color"
-                android:textColorHighlight="@color/colorAccent"
-                android:textSize="24sp"
-                android:typeface="normal"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.166"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:ignore="HardcodedText" />
-
-            <TextView
-                android:id="@+id/displayNameTop"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:paddingEnd="32dp"
-                android:paddingLeft="32dp"
-                android:paddingRight="32dp"
-                android:paddingStart="32dp"
-                android:paddingTop="16dp"
-                android:text="@string/name"
-                android:textColor="@color/white_primary_text_color"
-                android:textColorHighlight="@color/colorAccent"
-                android:textSize="24sp"
-                android:visibility="gone"
-                app:layout_constraintEnd_toEndOf="@+id/fullPictureImage"
-                app:layout_constraintStart_toStartOf="@+id/fullPictureImage"
-                app:layout_constraintTop_toTopOf="parent" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/phonesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="2"
+        android:paddingTop="16dp" />
 
 
-        </android.support.constraint.ConstraintLayout>
-
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/phonesRecyclerView"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginTop="0dp"
-            android:layout_weight="2"
-            android:paddingTop="16dp" />
-
-
-    </LinearLayout>
+</LinearLayout>
 
