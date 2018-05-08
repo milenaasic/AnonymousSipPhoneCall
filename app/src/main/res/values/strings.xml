@@ -40,4 +40,9 @@
     <string name="permission_rationale_use_sip">Need permission to make SIP phone call</string>
     <string name="no_network_info">No Network Connection</string>
 
+
+    <string name="noHistoryMessage">No call history.</string>
+    <string name="clear_history">Clear History</string>
+    <string name="alert_dialog_message">Are you sure you want to clear call history ?</string>
+    <string name="alert_dialog_title">Clear history</string>
 </resources>

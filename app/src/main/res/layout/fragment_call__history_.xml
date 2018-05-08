@@ -6,8 +6,17 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/noHistoryText"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="call history" />
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/noHistoryMessage"
+        android:textColor="@color/colorPrimary"
+        android:visibility="visible" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/logRecView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </FrameLayout>

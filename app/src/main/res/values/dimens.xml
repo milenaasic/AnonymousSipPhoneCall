@@ -28,4 +28,7 @@
     <dimen name="list_capital_letter_size">36sp</dimen>
     <dimen name="list_text_primary_size">18sp</dimen>
     <dimen name="letter_in_circle_size">20sp</dimen>
+
+    //button
+    <dimen name="button_height_end_call">48dp</dimen>
 </resources>
