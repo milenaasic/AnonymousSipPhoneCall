@@ -9,9 +9,11 @@
         android:id="@+id/noHistoryText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="@dimen/activity_vertical_margin"
         android:text="@string/noHistoryMessage"
+        android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/noAccessContactsNoLogInfo"
         android:visibility="visible" />
 
     <android.support.v7.widget.RecyclerView

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/app_bar_search"
+        android:id="@+id/app_bar_search_prices"
         android:icon="@drawable/ic_search_white_48dp"
         android:orderInCategory="10"
-        android:title="@string/searchHint"
+        android:title="@string/searchHintPrices"
         app:actionViewClass="android.widget.SearchView"
         app:showAsAction="always" />
 </menu>

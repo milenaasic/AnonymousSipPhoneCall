@@ -59,7 +59,7 @@
         android:elevation="2dp"
         android:paddingBottom="4dp"
         android:paddingTop="4dp"
-        android:src="@drawable/icons8_call_disc"
+        android:src="@drawable/icons8_end_call"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

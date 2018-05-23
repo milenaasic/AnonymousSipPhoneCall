@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "497210083380",
+    "firebase_url": "https://sipphonecall-bfad3.firebaseio.com",
+    "project_id": "sipphonecall-bfad3",
+    "storage_bucket": "sipphonecall-bfad3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497210083380:android:1c624b0920294bb5",
+        "android_client_info": {
+          "package_name": "sipbtc.anonymoussipphonecall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497210083380-b9lvf17aclcnec9cqffam29ktoee30cr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sipbtc.anonymoussipphonecall",
+            "certificate_hash": "067ad727dd999030a724ad3de7d51e61dbcd1331"
+          }
+        },
+        {
+          "client_id": "497210083380-hec82e5dvnlrt9cuf98vtho9l57n7016.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXyzfiUBJJFqkndM5519ZB9RxNbONR5JY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497210083380-hec82e5dvnlrt9cuf98vtho9l57n7016.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

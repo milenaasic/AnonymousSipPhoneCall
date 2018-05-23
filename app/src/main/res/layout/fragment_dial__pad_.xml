@@ -246,7 +246,7 @@
             android:contentDescription="@null"
             android:maxHeight="?attr/actionBarSize"
             android:minHeight="@dimen/dialpadNumber_height"
-            android:src="@drawable/ic_dialer_sip_black_48dp"
+            android:src="@drawable/icons8_phone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"

@@ -5,6 +5,9 @@
     <color name="colorPrimaryDark">#008ba3</color>
     <color name="colorAccent">#ff8800</color>
 
+    <color name="myPrimaryDark">#005d74</color>
+    <color name="myPrimaryLight">#54bbd4</color>
+
     <color name="divider">#e0e0e0</color>
     <color name="dial_numbers">#7b000000</color>
     <color name="customColor">#5a3535</color>

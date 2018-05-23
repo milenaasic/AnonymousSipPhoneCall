@@ -62,7 +62,7 @@
             android:layout_marginBottom="64dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
-            android:background="?attr/colorPrimaryDark"
+            android:background="@color/colorPrimaryDark"
             android:elevation="8dp"
             android:fontFamily="sans-serif"
             android:text="@string/add_credit"
@@ -71,6 +71,7 @@
             android:textColor="@android:color/white"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -86,11 +87,43 @@
             android:text="@string/textView_Info_add_credit"
             android:textAlignment="center"
             android:textColor="@color/colorAccent"
+            android:visibility="visible"
             app:layout_constraintBottom_toTopOf="@+id/buttonAddCredit"
             app:layout_constraintEnd_toEndOf="@+id/buttonAddCredit"
             app:layout_constraintStart_toStartOf="@+id/buttonAddCredit"
             app:layout_constraintTop_toBottomOf="@+id/textViiewAccountBalance"
             app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textBtcAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/your_BTC_address_is"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorPrimaryDark"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/btcAdreess"
+            app:layout_constraintEnd_toEndOf="@+id/btcAdreess"
+            app:layout_constraintStart_toStartOf="@+id/btcAdreess" />
+
+        <TextView
+            android:id="@+id/btcAdreess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="64dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/madeup_btc_address"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorAccent"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
     </android.support.constraint.ConstraintLayout>
 
@@ -144,7 +177,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="32dp"
-                android:text="Authenticating"
+                android:text="@string/progres_bar_text"
                 android:textColor="@color/colorAccent"
                 app:layout_constraintBottom_toBottomOf="@+id/progressBarLogIn"
                 app:layout_constraintEnd_toEndOf="parent"

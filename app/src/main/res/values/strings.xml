@@ -11,8 +11,6 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- permissions messages -->
     <string name="permission_rationale_internet">Need Internet Permission</string>
@@ -22,7 +20,7 @@
     <!-- log in fragment strings -->
     <string name="dear_user_text_1">Dear User,</string>
     <string name="dear_user_text_2">Your account balance is</string>
-    <string name="btc_balance">0.00 BTC</string>
+    <string name="btc_balance">0.0000 BTC</string>
     <string name="add_credit">ADD CREDIT</string>
     <string name="textView_Info_add_credit">Would you like to add credit to make a phone call?</string>
 
@@ -45,4 +43,21 @@
     <string name="clear_history">Clear History</string>
     <string name="alert_dialog_message">Are you sure you want to clear call history ?</string>
     <string name="alert_dialog_title">Clear history</string>
+    <string name="searchHintPrices">search</string>
+
+    <string name="your_BTC_address_is">Your BTC address</string>
+    <string name="madeup_btc_address">1234567890QWERTY</string>
+
+    <!--konstante za  SharedPreferences -->
+    <string name="CURRENT_CREDIT">current_credit</string>
+    <string name="isCreditChanged">credit_chenged</string>
+    <string name="PRICES_CHANGED">prices_changed</string>
+
+
+    <!--konstante za  progres bar -->
+    <string name="progres_bar_text">Processing</string>
+    <string name="destination">Destination</string>
+    <string name="prefix">Prefix</string>
+    <string name="sec">$/sec</string>
+
 </resources>

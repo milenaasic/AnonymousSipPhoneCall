@@ -31,4 +31,7 @@
 
     //button
     <dimen name="button_height_end_call">48dp</dimen>
+
+    //text size for no access and no log info
+    <dimen name="noAccessContactsNoLogInfo">16sp</dimen>
 </resources>
