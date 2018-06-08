@@ -15,6 +15,9 @@
     <!-- permissions messages -->
     <string name="permission_rationale_internet">Need Internet Permission</string>
     <string name="permission_rationale_internet_or_network_state">Need permission to check if your device is online and to use Interet</string>
+    <string name="permission_rationale_microphone">Need permission to use microphone</string>
+    <string name="permission_rationale_contacts">Need permission to read contacts</string>
+    <string name="permission_rationale_use_sip_and_mice">Need permissions to make call and use microphone.</string>
 
 
     <!-- log in fragment strings -->
@@ -26,16 +29,17 @@
 
     <!-- Dial pad fragment strings -->
     <string name="toast_unable_to_resolve_activity" />
-    <string name="permission_rationale_contacts">Need permission to read contacts</string>
+
 
     <!--Denies access fragment strings -->
-    <string name="denied_contacts_access_string">No permission to access your contacts !</string>
+    <string name="denied_contacts_access_string">No permission to read your contacts !</string>
 
+    <!--Contacts fragment strings -->
     <string name="foundContacts">found</string>
     <string name="nb_of_filtered_items">0 found</string>
     <string name="searchHint">search contacts</string>
     <string name="name">name</string>
-    <string name="permission_rationale_use_sip">Need permission to make SIP phone call</string>
+
     <string name="no_network_info">No Network Connection</string>
 
 
@@ -59,5 +63,17 @@
     <string name="destination">Destination</string>
     <string name="prefix">Prefix</string>
     <string name="sec">$/sec</string>
+    <string name="enter_number">enter number</string>
+
+    <!--konstante za SipCallActuvuty Layout -->
+    <string name="readySipCallActivity">Ready</string>
+
+    <!--konstante za DialPad Fragment -->
+    <string name="DialPad_menu_paste">Paste number</string>
+    <string name="dialpad_snackbar_message">Not valid international number.</string>
+    <string name="detail_fragment_snackbar_message">Number must have prefix,eg. for USA +1.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
